@@ -1,0 +1,136 @@
+@font-face{font-family: droidSans2;src:url("../font/Barlow-Regular.ttf");}
+@font-face{font-family: droidSans;src:url("../font/Barlow-SemiBold.ttf") format('opentype');}
+
+*{margin:0;padding:0;box-sizing:content-box;font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif}
+body{min-width:1200px;min-height:100%;background-color:#ffffff}
+.banner{width:100%;position:relative}
+.banner .banner_bgc{width:100%;height:100%}
+.banner .banner_mint{position:absolute;width:11.5%;height:18%;top:27%;right:25%;z-index:99;cursor:pointer}
+.banner .doge{position:absolute;left:50%;transform:translateX(-50%);bottom:0.6%;width:35%}
+.banner .dogeHidden{display:none}
+.banner .link{position:absolute;top:15px;width:1200px;height:90px;left:50%;transform:translateX(-50%);z-index:999;vertical-align:middle}
+.banner .link a{position:absolute;top:50%;transform:translateY(-50%)}
+.banner .link a:nth-child(1){left:0;width:389px;height:84px}
+.banner .link a:nth-child(2){left:1080px;width:57px;height:24px}
+.banner .link a:nth-child(3){left:1150px;width:70px;height:24px}
+.banner .link a:nth-child(4){left:649px;width:49px;height:24px}
+.banner .link a:nth-child(5){right:380px;width:60px;height:60px}
+.banner .link a:nth-child(6){right:310px;width:60px;height:60px}
+.banner .link a:nth-child(7){right:0px;width:271px;height:60px}
+.banner .link a:nth-child(7) span{position:absolute;right:15px;top:50%;transform:translateY(-50%);font-weight:700;color:#1a1a1a}
+.banner .link .money{display:none}
+.faq{width:100%;height:auto}
+#faq1{position:relative;margin-top:-5px}
+#faq1 .faq1_text{position:absolute;top:23%;left:18%;color:#1a1a1a}
+#faq1 .faq1_text h3{color:#181818;font-family:droidSans;font-size:2.5rem;font-weight:700;padding-bottom:30px}
+#faq1 .faq1_text p{color:#272727;font-family:droidSans2;width:36%;font-size:21px;line-height:32px}
+@media screen and (max-width: 1644px){#faq1 .faq1_text{left:8%}
+#faq1 .faq1_text h3{color:#181818;font-family:droidSans;padding-bottom:20px}
+#faq1 .faq1_text p{color:#272727;font-family:droidSans2;font-size:20px;width:38%;line-height:28px}
+}
+@media screen and (max-width: 1422px){#faq1 .faq1_text{left:5%}
+#faq1 .faq1_text h3{color:#181818;font-family:droidSans;padding-bottom:10px}
+#faq1 .faq1_text p{color:#272727;font-family:droidSans2;font-size:19px;width:50%;line-height:28px}
+}
+#faq2{position:relative;min-height:670px;background-color:#ffffff}
+#faq2 .faq2_title{color:#181818;font-family:droidSans;position:absolute;width:100%;top:15%;left:0;text-align:center;font-size:40px;font-weight:700}
+#faq2 .faq2_box{position:absolute;top:28%;left:50%;transform:translateX(-50%);width:1200px;display:flex;justify-content:space-around}
+#faq2 .faq2_1,#faq2 .faq2_2,#faq2 .faq2_3{position:relative;width:29%}
+#faq2 .faq2_1_item{position:absolute;top:33%;left:0;width:100%;color:#39a2d5}
+#faq2 .faq2_1_item .hhh{color:#181818;font-family:droidSans;font-size:27px;text-align:center;font-weight:900}
+#faq2 .faq2_1_item .ttt{color:#272727;font-family:droidSans2;font-size:20px;text-align:left;line-height:32px;padding:20px 35px}
+#faq2 .faq2_2{color:#f6881b}
+#faq2 .faq2_3{color:#fff}
+#faq2 .faq2_2_item{position:absolute;top:33%;left:0;width:100%}
+#faq2 .faq2_2_item .hhh{color:#181818;font-family:droidSans;font-size:27px;text-align:center;font-weight:900}
+#faq2 .faq2_2_item .ttt{color:#272727;font-family:droidSans2;font-size:20px;text-align:left;line-height:32px;padding:20px 35px}
+#faq2 .faq2_3_item{position:absolute;top:33%;left:0;width:100%}
+#faq2 .faq2_3_item .hhh{color:#181818;font-family:droidSans;font-size:27px;text-align:center;font-weight:900}
+#faq2 .faq2_3_item .ttt{color:#272727;font-family:droidSans2;font-size:20px;text-align:left;line-height:32px;padding:20px 35px}
+#faq3{position:relative;background-color:#ffffff;min-height:545px}
+#faq3 .faq3_item{position:absolute;top:9%;left:45%;width:34%;color:#1a1a1a}
+#faq3 .faq3_item .bigTitle{color:#181818;font-family:droidSans;font-size:40px;line-height:60px;font-weight:700;margin-bottom:20px}
+#faq3 .faq3_item .sTitle{color:#181818;font-family:droidSans;font-size:24px;font-weight:700;line-height:45px}
+#faq3 .faq3_item .text{color:#272727;font-family:droidSans2;line-height:30px;font-size:20px}
+#faq3 .faq3_item .text1{color:#272727;font-family:droidSans2;margin-bottom:30px}
+#faq3 .element{position:absolute;bottom:8%;cursor:pointer;left:44%;width:13.5%}
+#faq3 .mint{position:absolute;bottom:8%;cursor:pointer;left:57%;width:13.5%}
+#faq3 .gift{position:absolute;bottom:8%;cursor:pointer;left:70%;width:13.5%}
+@media screen and (max-width: 1720px){#faq3 .faq3_item{width:37%}
+#faq3 .text{line-height:28px;font-size:19px}
+#faq3 .text1{margin-bottom:20px}
+#faq3 .mint,#faq3 .element,#faq3 .gift{bottom:5%}
+}
+@media screen and (max-width: 1580px){#faq3 .faq3_item{width:50%}
+#faq3 .faq3_item .text{line-height:27px}
+#faq3 .faq3_item .text1{margin-bottom:18x}
+#faq3 .mint,#faq3 .element,#faq3 .gift{bottom:5%}
+}
+@media screen and (max-width: 1380px){#faq3 .faq3_item{width:50%}
+#faq3 .faq3_item .text1{margin-bottom:10px}
+#faq3 .faq3_item .sTitle{font-size:22px;font-weight:700;line-height:40px}
+#faq3 .faq3_item .text{line-height:28px;font-size:18px}
+#faq3 .faq3_item .mint{bottom:5%}
+#faq3 .faq3_item .gift{bottom:5%}
+}
+#faq4{position:relative;color:#1a1a1a;min-height:688px}
+#faq4 h3{color:#181818;font-family:droidSans;position:absolute;width:100%;top:10%;left:0;text-align:center;font-size:40px;font-weight:700}
+#faq4 .title{color:#181818;font-family:droidSans;font-size:26px;font-weight:700;line-height:40px}
+#faq4 .text{color:#272727;font-family:droidSans2;font-size:19px}
+#faq4 .faq4_1,#faq4 .faq4_2,#faq4 .faq4_3,#faq4 .faq4_4{position:absolute;left:48%;width:30%}
+#faq4 .faq4_1{top:30%}
+#faq4 .faq4_2{top:46%}
+#faq4 .faq4_3{top:62%}
+#faq4 .faq4_4{top:80%}
+@media screen and (max-width: 1600px){#faq4 .title{font-size:25px;line-height:30px}
+#faq4 .text{font-size:17px;line-height:25px}
+}
+@media screen and (max-width: 1500px){#faq4 .faq4_1,#faq4 .faq4_2,#faq4 .faq4_3,#faq4 .faq4_4{width:31%}
+#faq4 .title{font-size:20px;line-height:23px}
+#faq4 .text{color:#272727;font-family:droidSans2;font-size:16px;line-height:20px}
+}
+#faq5{position:relative}
+#faq5 .logo{position:absolute;bottom:40%}
+#faq5 .twitter_logo{left:20%;width:8.5%}
+#faq5 .discord_logo{left:30%;width:8.5%}
+#faq5 .footer_logo{position:absolute;bottom:7%;left:50%;transform:translateX(-50%)}
+.page_grant{width:100%;height:100vh;background-color:#ffffff}
+.page_grant .banner{width:100%;position:relative}
+.page_grant .banner .banner_bgc{width:100%;height:100%}
+.page_grant .banner .banner_mint{position:absolute;width:11.5%;height:18%;top:27%;right:25%;z-index:99;cursor:pointer}
+.page_grant .banner .link{position:absolute;top:15px;width:1200px;height:90px;left:50%;transform:translateX(-50%);z-index:999;vertical-align:middle}
+.page_grant .banner .link a{position:absolute;top:50%;transform:translateY(-50%)}
+.page_grant .banner .link a:nth-child(1){left:0;width:389px;height:84px}
+.page_grant .banner .link a:nth-child(2){left:447px;width:57px;height:24px}
+.page_grant .banner .link a:nth-child(3){left:547px;width:70px;height:24px}
+.page_grant .banner .link a:nth-child(4){left:649px;width:49px;height:24px}
+.page_grant .banner .link a:nth-child(5){right:380px;width:60px;height:60px}
+.page_grant .banner .link a:nth-child(6){right:310px;width:60px;height:60px}
+.page_grant .banner .link a:nth-child(7){right:0px;width:271px;height:60px}
+.page_grant .banner .link a:nth-child(7) span{position:absolute;right:15px;top:50%;transform:translateY(-50%);font-weight:700;color:#1a1a1a}
+.page_grant .banner .link .money{display:none}
+.page_grant .banner .grantText{position:absolute;top:15%;left:19%;width:30%;color:#1a1a1a}
+.page_grant .banner .grantText .ttt{font-size:40px;font-weight:700;margin-bottom:30px}
+.page_grant .banner .grantText .ppp{font-size:21px;line-height:33px}
+@media screen and (max-width: 1600px){.page_grant .banner .grantText{left:19%;width:35%}
+.page_grant .banner .grantText .ttt{font-size:40px;font-weight:700;margin-bottom:20px}
+.page_grant .banner .grantText .ppp{font-size:21px;line-height:30px}
+}
+@media screen and (max-width: 1400px){.page_grant .banner .grantText{left:10%;width:47%}
+.page_grant .banner .grantText .ttt{font-size:38px;font-weight:700;margin-bottom:10px}
+.page_grant .banner .grantText .ppp{font-size:20px;line-height:30px}
+}
+.page_grant .grantPage{background-color:#ffffff}
+.page_grant .grantPage .grantNum{position:absolute;display:flex;width:22%;top:59%;left:19%}
+.page_grant .grantPage .grantNum .common{width:16.6%;border:2px solid #ffb232;border-radius:7px;font-size:27px;font-weight:700;text-align:center;color:#ffb232;margin:0 2px;padding:4px 0}
+.page_grant .grantPage .grantNum .line{border:none}
+.page_grant .grantPage .text{position:absolute;left:42%;top:60%}
+.page_grant .grantPage .grantBtn{position:absolute;top:70%;left:18%;width:13.5%;cursor:pointer}
+@media screen and (max-width: 1400px){.page_grant .grantPage .grantNum{left:10%}
+.page_grant .grantPage .text{left:33%}
+.page_grant .grantPage .grantBtn{left:9%}
+}
+.page_grant .grantPage .footer_logo{position:absolute;bottom:0%;left:50%;transform:translateX(-50%)}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+input[type="number"]{-moz-appearance:textfield}
+
